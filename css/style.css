@@ -1,0 +1,28 @@
+#app {
+    background: linear-gradient(#860505 20%, #5461e9 20%);
+    height: 100vh;
+}
+
+#email-list {
+    list-style: none;
+}
+
+#email-list li {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: 2px solid black;
+}
+
+#title {
+    font-size: 120px;
+    color: #b8f10c;
+}
+
+#generate {
+    color: rgb(55, 2, 2);
+}
+
+.fa-circle-notch {
+    font-size: 200px;
+}
