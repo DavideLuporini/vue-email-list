@@ -18,10 +18,10 @@
     <div id="app">
         <div class="container mx-auto d-flex justify-content-center flex-column">
             <div class="row text-center">
-                <h1 id="title" class="h1 text-uppercase">mail generator</h1>
+                <h1 id="title" class="h1 text-uppercase mb-4">mail generator <i class="fas fa-envelope ps-5"></i></h1>
                 <div class="d-flex justify-content-center" v-if="emails.length === 10" id="email-container">
                     <ul id="email-list">
-                        <li v-for="email in emails">{{email}}</li>
+                        <li id="email" v-for="email in emails">{{email}}</li>
                     </ul>
                 </div>
                 <div v-else class="d-flex flex-column align-items-center p-5">

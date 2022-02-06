@@ -1,5 +1,5 @@
 #app {
-    background: linear-gradient(#860505 20%, #5461e9 20%);
+    background: linear-gradient(#860505 10%, #5461e9 20%);
     height: 100vh;
 }
 
@@ -11,11 +11,14 @@
     font-size: 20px;
     padding-top: 10px;
     padding-bottom: 10px;
-    border: 2px solid black;
+    border: 1px solid black;
+    color: #860505;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 #title {
-    font-size: 120px;
+    font-size: 100px;
     color: #b8f10c;
 }
 
@@ -25,4 +28,8 @@
 
 .fa-circle-notch {
     font-size: 200px;
+}
+
+#email {
+    background-color: #3ecdf5;
 }
